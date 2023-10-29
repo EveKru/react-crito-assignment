@@ -1,0 +1,66 @@
+header {
+  background-color: #F0EFE9;
+  padding: 16px;
+}
+header .container {
+  display: flex;
+  gap: 70px;
+}
+header .menu {
+  flex: 1;
+}
+header .menu .topp-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b5b4b4;
+  padding-bottom: 5px;
+}
+header .menu .topp-menu .contact-information {
+  display: flex;
+  align-items: center;
+}
+header .menu .topp-menu .contact-information .content-box {
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: 300;
+  padding-right: 20px;
+  border-right: 1px solid #b5b4b4;
+}
+header .menu .topp-menu .contact-information .content-box.last {
+  border: none;
+}
+header .menu .topp-menu .contact-information .content-box i {
+  margin-right: 4px;
+  color: #4e4e4e;
+}
+header .menu .topp-menu .social-media a {
+  margin-left: 10px;
+  font-size: 1.2rem;
+  color: #191919;
+}
+header .menu .topp-menu .social-media a:hover {
+  color: #676565;
+}
+header .menu .main-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+header .menu .main-menu .btn-yellow {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+header .menu .main-menu nav a {
+  color: #191919;
+  text-decoration: none;
+  margin-right: 25px;
+}
+header .menu .main-menu nav a.active {
+  text-decoration: underline;
+  font-weight: 600;
+}
+header .menu .main-menu nav a:hover {
+  color: #676565;
+}
