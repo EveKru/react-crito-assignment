@@ -1,8 +1,16 @@
 import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Contacts = () => {
   return (
-    <div>Contacts</div>
+    <div>
+         <Header/>
+        <main>
+            <h1>Kontakta oss</h1>
+        </main>
+        <Footer/>
+    </div>
   )
 }
 
