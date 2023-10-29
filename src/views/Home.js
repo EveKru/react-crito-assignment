@@ -4,10 +4,14 @@ import Footer from '../components/Footer'
 
 const Home = () => {
   return (
-    <div>
+    <div className="wrapper">
         <Header/>
         <main>
-            <h1>Välkommen hit</h1>
+            <div className='container'>
+
+               <h1>Välkommen hit</h1>
+
+            </div>
         </main>
         <Footer/>
     </div>

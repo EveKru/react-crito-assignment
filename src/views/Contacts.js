@@ -4,10 +4,14 @@ import Footer from '../components/Footer'
 
 const Contacts = () => {
   return (
-    <div>
+    <div className='wrapper'>
          <Header/>
         <main>
+            <div className='container'>
+                
             <h1>Kontakta oss</h1>
+
+            </div>
         </main>
         <Footer/>
     </div>
