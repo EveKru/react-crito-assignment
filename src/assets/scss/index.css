@@ -64,3 +64,66 @@ header .menu .main-menu nav a.active {
 header .menu .main-menu nav a:hover {
   color: #676565;
 }
+
+.btn-yellow {
+  background-color: #F9D783;
+  color: #191919;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+.btn-yellow i {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.btn-yellow:hover {
+  background-color: #c9ae6b;
+}
+
+.btn-transparent {
+  background-color: transparent;
+  border: 1px solid black;
+  color: #191919;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+.btn-transparent i {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.btn-transparent:hover {
+  background-color: #c8c6be;
+}
+
+.btn-black {
+  background-color: #191919;
+  color: #f8f8f8;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: background-color 0.2s;
+}
+.btn-black i {
+  margin-left: 10px;
+  font-size: 14px;
+}
+.btn-black:hover {
+  background-color: #6d6c6c;
+}
+
+.btn-round {
+  color: #191919;
+  border: 1px solid #191919;
+  padding: 15px 20px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+.btn-round:hover {
+  background-color: #c8c6be;
+}
