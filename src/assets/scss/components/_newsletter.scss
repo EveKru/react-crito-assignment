@@ -1,0 +1,31 @@
+.newsletter {
+    position: relative;
+    background-color: #F0EFE9;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+            font-family:'DM Sans', sans-serif;
+            font-size: 45px;
+            font-weight: 700;
+        }
+
+        form {
+            input {
+                padding: 10px 20px;
+                border-radius: 25px;
+                outline: none;
+                border: 1px solid rgb(192, 190, 190);
+                margin-right: 20px;
+            }
+            .btn-yellow {
+                border: none;
+            }
+        }
+    }
+}

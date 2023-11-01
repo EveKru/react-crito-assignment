@@ -4,7 +4,7 @@ import BL from '../assets/images/background-lines.svg'
 
 const Showcase = () => {
   return (
-    <div className='ShowCase'>
+    <section className='showcase'>
         <img class="background-lines" src= {BL} alt="background lines"></img>
         <div className='container'>
            <div class="content">
@@ -15,7 +15,7 @@ const Showcase = () => {
             </div>
             <img src= {SC} alt="showcase image"/>
         </div>
-    </div>
+    </section>
   )
 }
 
