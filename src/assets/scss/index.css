@@ -330,6 +330,301 @@ footer .small-footer .container .social-media a {
   font-weight: 700;
 }
 
+.aboutcompany {
+  padding-bottom: 100px;
+}
+.aboutcompany .container {
+  display: flex;
+  position: relative;
+}
+.aboutcompany .container img {
+  height: 600px;
+  width: 500px;
+}
+.aboutcompany .container .text {
+  background-color: #beebff;
+  height: 180px;
+  width: 360px;
+  position: absolute;
+  bottom: 50px;
+  left: -30px;
+}
+.aboutcompany .container .text .samantha {
+  display: flex;
+  padding-top: 45px;
+  padding-left: 30px;
+}
+.aboutcompany .container .text .samantha h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.aboutcompany .container .text .samantha p {
+  color: #f94d1c;
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 5px;
+}
+.aboutcompany .container .text #text2 {
+  padding-left: 30px;
+}
+.aboutcompany .container .content {
+  padding-top: 60px;
+  padding-left: 150px;
+}
+.aboutcompany .container .content .heading p {
+  color: #f94d1c;
+  font-size: 18px;
+}
+.aboutcompany .container .content .heading h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+.aboutcompany .container .content .buttons {
+  display: flex;
+}
+.aboutcompany .container .content .buttons #button-1 {
+  padding-top: 70px;
+}
+.aboutcompany .container .content .buttons #button-1 .btn-black {
+  padding: 15px 30px 15px 30px;
+}
+.aboutcompany .container .content .buttons #button-2 {
+  padding-top: 70px;
+  padding-left: 30px;
+}
+.aboutcompany .container .content .buttons p {
+  padding-top: 70px;
+  padding-left: 20px;
+}
+
+.ourservices {
+  position: relative;
+  background-color: #F0EFE9;
+  padding-top: 100px;
+  height: 800px;
+}
+.ourservices .container img {
+  height: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.ourservices .container .text p {
+  color: #f94d1c;
+}
+.ourservices .container .text h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-bottom: 40px;
+}
+.ourservices .container .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.ourservices .container .content #box-1 {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+}
+.ourservices .container .content #box-1 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 90px;
+  padding-left: 30px;
+}
+.ourservices .container .content #box-1 p {
+  padding-left: 30px;
+}
+.ourservices .container .content #box-1 #button-1 {
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.ourservices .container .content #box-1 #button-1 a {
+  background-color: #191919;
+  border: none;
+}
+.ourservices .container .content #box-1 #button-1 a i {
+  color: white;
+}
+.ourservices .container .content #box-1 #button-1 a:hover {
+  background-color: #8f7c4c;
+}
+.ourservices .container .content #box-2 {
+  background-color: #F9D783;
+  height: 300px;
+  width: 300px;
+}
+.ourservices .container .content #box-2 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 90px;
+  padding-left: 30px;
+}
+.ourservices .container .content #box-2 p {
+  padding-left: 30px;
+}
+.ourservices .container .content #box-2 #button-2 {
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.ourservices .container .content #box-2 #button-2 a {
+  background-color: white;
+}
+.ourservices .container .content #box-2 #button-2 a:hover {
+  background-color: #8f7c4c;
+}
+.ourservices .container .content #box-3 {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+}
+.ourservices .container .content #box-3 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 90px;
+  padding-left: 30px;
+}
+.ourservices .container .content #box-3 p {
+  padding-left: 30px;
+}
+.ourservices .container .content #box-3 #button-3 {
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.ourservices .container .content #box-3 #button-3 a {
+  background-color: #191919;
+  border: none;
+}
+.ourservices .container .content #box-3 #button-3 a i {
+  color: white;
+}
+.ourservices .container .content #box-3 #button-3 a:hover {
+  background-color: #8f7c4c;
+}
+.ourservices .container .content #box-4 {
+  background-color: white;
+  height: 300px;
+  width: 300x;
+}
+.ourservices .container .content #box-4 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 90px;
+  padding-left: 30px;
+}
+.ourservices .container .content #box-4 p {
+  padding-left: 30px;
+}
+.ourservices .container .content #box-4 #button-4 {
+  padding-top: 40px;
+  padding-left: 200px;
+}
+.ourservices .container .content #box-4 #button-4 a {
+  background-color: #191919;
+  border: none;
+}
+.ourservices .container .content #box-4 #button-4 a i {
+  color: white;
+}
+.ourservices .container .content #box-4 #button-4 a:hover {
+  background-color: #8f7c4c;
+}
+.ourservices .container .button-5 {
+  position: absolute;
+  top: 85%;
+  left: 45%;
+}
+.ourservices .container .button-5 a {
+  padding: 15px 20px 15px 20px;
+}
+
+.whychooseus {
+  position: relative;
+  padding-top: 90px;
+  height: 700px;
+}
+.whychooseus .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.whychooseus .container img {
+  height: 500px;
+  width: 650px;
+  position: absolute;
+  bottom: 100px;
+  right: 230px;
+}
+.whychooseus .container .background-box {
+  background-color: #F0EFE9;
+  width: 1000px;
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+}
+.whychooseus .container .content h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.whychooseus .container .content p {
+  padding-left: 20px;
+}
+.whychooseus .container .content .heading h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-bottom: 40px;
+}
+.whychooseus .container .content .heading p {
+  color: #f94d1c;
+  padding: 0;
+}
+.whychooseus .container .content #thumbs-up {
+  display: flex;
+}
+.whychooseus .container .content #thumbs-up i {
+  font-size: 30px;
+  padding-right: 20px;
+  padding-top: 25px;
+}
+.whychooseus .container .content #diamond {
+  display: flex;
+}
+.whychooseus .container .content #diamond i {
+  font-size: 30px;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+.whychooseus .container .content #codepen {
+  display: flex;
+}
+.whychooseus .container .content #codepen i {
+  font-size: 30px;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+.whychooseus .container .content #brain {
+  display: flex;
+}
+.whychooseus .container .content #brain i {
+  font-size: 30px;
+  padding-top: 25px;
+  padding-right: 20px;
+}
+
 .newsletter {
   position: relative;
   background-color: #F0EFE9;

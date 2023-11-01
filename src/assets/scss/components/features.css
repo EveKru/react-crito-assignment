@@ -1,0 +1,74 @@
+.features {
+  padding-bottom: 100px;
+}
+.features .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  outline: 1px solid rgb(208, 207, 207);
+  outline-offset: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.features .container .text-and-button {
+  margin: auto;
+}
+.features .container .text-and-button p {
+  color: #f94d1c;
+}
+.features .container .text-and-button h2 {
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+.features .container .text-and-button .btn-yellow {
+  padding: 15px 150px 15px 150px;
+}
+.features .container .grid-columns {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.features .container .grid-columns .business-advice i {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.features .container .grid-columns .business-advice h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.features .container .grid-columns .startup-business i {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.features .container .grid-columns .startup-business h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.features .container .grid-columns .financial-advice {
+  padding-top: 20px;
+}
+.features .container .grid-columns .financial-advice i {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.features .container .grid-columns .financial-advice h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.features .container .grid-columns .risk-management {
+  padding-top: 20px;
+}
+.features .container .grid-columns .risk-management i {
+  font-size: 30px;
+  padding-bottom: 15px;
+}
+.features .container .grid-columns .risk-management h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}

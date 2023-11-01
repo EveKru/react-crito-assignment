@@ -1,0 +1,109 @@
+.whychooseus {
+
+    position: relative;
+    padding-top: 90px;
+    height: 700px;
+
+    .container {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        img {
+
+            height: 500px;
+            width: 650px; 
+            position: absolute;
+            bottom: 100px;
+            right: 230px;
+        }
+
+        .background-box {
+
+            background-color: #F0EFE9;
+            width: 1000px;
+            height: 400px;
+            position: absolute;
+            z-index: -1;
+            bottom: 0;
+            right: 0;
+
+        }
+
+        .content {
+
+            h3 {
+
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+                font-size: 22px;
+                padding-top: 15px;
+                padding-left: 20px;
+            }
+
+            p {
+                padding-left: 20px;
+            }
+
+            .heading {
+
+                h2 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 45px;
+                    padding-bottom: 40px;
+                }
+
+                p {
+
+                    color: #f94d1c;
+                    padding: 0;
+                }
+            }
+
+            #thumbs-up {
+
+                display: flex;
+
+                i {
+                    font-size: 30px;
+                    padding-right: 20px;
+                    padding-top: 25px;
+                }
+            }
+
+            #diamond {
+
+                display: flex;
+
+                i {
+                    font-size: 30px;
+                    padding-top: 25px;
+                    padding-right: 20px;
+                }
+            }
+
+            #codepen {
+
+                display: flex;
+
+                i {
+                    font-size: 30px;
+                    padding-top: 25px;
+                    padding-right: 20px;
+                }
+            }
+
+            #brain {
+
+                display: flex;
+
+                i {
+                    font-size: 30px;
+                    padding-top: 25px;
+                    padding-right: 20px;
+                }
+            }
+        }
+    }
+}

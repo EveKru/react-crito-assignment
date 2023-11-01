@@ -5,6 +5,9 @@ import Showcase from '../components/Showcase'
 import Sponsoring from '../components/Sponsoring'
 import Features from '../components/Features'
 import Newsletter from '../components/Newsletter'
+import Aboutcompany from '../components/Aboutcompany'
+import Ourservices from '../components/Ourservices'
+import Whychooseus from '../components/Whychooseus'
 
 const Home = () => {
   return (
@@ -14,6 +17,9 @@ const Home = () => {
           <Showcase/>
           <Sponsoring/>
           <Features/>
+          <Aboutcompany/>
+          <Ourservices/>
+          <Whychooseus/>
 
 
           <Newsletter/>

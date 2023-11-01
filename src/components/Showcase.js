@@ -1,11 +1,11 @@
 import React from 'react'
 import SC from '../assets/images/showcase-image.svg'
-import BL from '../assets/images/background-lines.svg'
+import BLW from '../assets/images/background-lines.svg'
 
 const Showcase = () => {
   return (
     <section className='showcase'>
-        <img class="background-lines" src= {BL} alt="background lines"></img>
+        <img class="background-lines" src= {BLW} alt="background lines"></img>
         <div className='container'>
            <div class="content">
                 <h1>We Provide The Best Business Sulutions</h1>
