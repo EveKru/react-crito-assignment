@@ -8,6 +8,10 @@ import Newsletter from '../components/Newsletter'
 import Aboutcompany from '../components/Aboutcompany'
 import Ourservices from '../components/Ourservices'
 import Whychooseus from '../components/Whychooseus'
+import Projectandcase from '../components/Projectandcase'
+import Meetourteam from '../components/Meetourteam'
+import Whatourclientssay from '../components/Whatourclientssay'
+import Articleandnews from '../components/Articleandnews'
 
 const Home = () => {
   return (
@@ -20,8 +24,10 @@ const Home = () => {
           <Aboutcompany/>
           <Ourservices/>
           <Whychooseus/>
-
-
+          <Projectandcase/>
+          <Meetourteam/>
+          <Whatourclientssay/>
+          <Articleandnews/>
           <Newsletter/>
         </main>
         <Footer/>

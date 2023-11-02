@@ -1,0 +1,52 @@
+.projectandcase {
+
+    .container {
+
+        .section-title {
+            text-align: center;
+        }
+
+        .project-and-cases {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+
+            article {
+
+                img {
+                    width: 100%;
+                }
+
+                h3 {
+                    font-family: 'DM Sans', sans-serif;
+                    font-weight: 700;
+                    font-size: 20px;
+                    padding-top: 35px;
+                    padding-bottom: 16px;
+                    border-bottom: 1px solid rgb(173, 171, 171);
+                }
+
+                a {
+                    padding-top: 10px;
+                    display: block;
+                    text-align: right;
+                    color: #191919;
+                    text-decoration: none;
+
+                }
+            }
+        }
+
+        .center-content {
+
+            padding-top: 50px;
+            padding-bottom: 90px;
+
+            .btn-black {
+
+                padding: 15px 25px 15px 25px;
+
+            }
+        }
+    }
+}

@@ -5,6 +5,27 @@
   grid-template-rows: auto 1fr auto;
 }
 
+.section-title {
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+.section-title p {
+  color: #f94d1c;
+  margin-bottom: 5px;
+}
+.section-title h2 {
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   background-color: #F0EFE9;
   padding: 16px;
@@ -623,6 +644,236 @@ footer .small-footer .container .social-media a {
   font-size: 30px;
   padding-top: 25px;
   padding-right: 20px;
+}
+
+.projectandcase .container .section-title {
+  text-align: center;
+}
+.projectandcase .container .project-and-cases {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.projectandcase .container .project-and-cases article img {
+  width: 100%;
+}
+.projectandcase .container .project-and-cases article h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 35px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(173, 171, 171);
+}
+.projectandcase .container .project-and-cases article a {
+  padding-top: 10px;
+  display: block;
+  text-align: right;
+  color: #191919;
+  text-decoration: none;
+}
+.projectandcase .container .center-content {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.projectandcase .container .center-content .btn-black {
+  padding: 15px 25px 15px 25px;
+}
+
+.meetourteam {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #F9D783;
+}
+.meetourteam .container .heading p {
+  color: #f94d1c;
+}
+.meetourteam .container .heading h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.meetourteam .container .heading .button {
+  padding-left: 1050px;
+  margin-top: -45px;
+}
+.meetourteam .container .heading .button a {
+  padding: 15px 25px 15px 25px;
+}
+.meetourteam .container .heading .button a:hover {
+  background-color: #c9ae6b;
+}
+.meetourteam .container .content {
+  padding-top: 80px;
+}
+.meetourteam .container .content .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 30px;
+}
+.meetourteam .container .content .images img {
+  width: 300px;
+  height: 400px;
+}
+.meetourteam .container .content .text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.meetourteam .container .content .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.meetourteam .container #dots {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.whatourclientssay {
+  background-color: #F9D783;
+  padding-bottom: 120px;
+}
+.whatourclientssay .container {
+  background-color: white;
+}
+.whatourclientssay .container .heading {
+  padding-top: 100px;
+  text-align: center;
+}
+.whatourclientssay .container .heading p {
+  color: #f94d1c;
+}
+.whatourclientssay .container .heading h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+}
+.whatourclientssay .container .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 80px;
+  padding-left: 60px;
+}
+.whatourclientssay .container .content .cassandra .star img {
+  padding-bottom: 20px;
+}
+.whatourclientssay .container .content .cassandra .image-and-text {
+  display: flex;
+  padding-top: 20px;
+}
+.whatourclientssay .container .content .cassandra .image-and-text img {
+  height: auto;
+  width: auto;
+  max-width: 70px;
+  max-height: 70px;
+  border-radius: 50%;
+}
+.whatourclientssay .container .content .cassandra .image-and-text .text {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.whatourclientssay .container .content .cassandra .image-and-text .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.whatourclientssay .container .content .cassandra .image-and-text .text p {
+  color: #f94d1c;
+}
+.whatourclientssay .container .content .amanda .star img {
+  padding-bottom: 20px;
+}
+.whatourclientssay .container .content .amanda .image-and-text {
+  display: flex;
+  padding-top: 20px;
+}
+.whatourclientssay .container .content .amanda .image-and-text .text {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.whatourclientssay .container .content .amanda .image-and-text .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.whatourclientssay .container .content .amanda .image-and-text .text p {
+  color: #f94d1c;
+}
+.whatourclientssay .container .content .jack .star img {
+  padding-bottom: 20px;
+}
+.whatourclientssay .container .content .jack .image-and-text {
+  display: flex;
+  padding-top: 20px;
+}
+.whatourclientssay .container .content .jack .image-and-text .text {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.whatourclientssay .container .content .jack .image-and-text .text h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.whatourclientssay .container .content .jack .image-and-text .text p {
+  color: #f94d1c;
+}
+.whatourclientssay .container .center-content {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.articleandnews .container {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.articleandnews .container .header {
+  display: flex;
+  align-items: center;
+}
+.articleandnews .container .header .text h2 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  padding-bottom: 50px;
+}
+.articleandnews .container .header .text p {
+  color: #f94d1c;
+}
+.articleandnews .container .header .button {
+  padding-left: 400px;
+}
+.articleandnews .container .header .button a {
+  padding: 15px 20px 15px 20px;
+}
+.articleandnews .container .content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.articleandnews .container .content .article-1 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.articleandnews .container .content .article-1 img {
+  padding-bottom: 20px;
+}
+.articleandnews .container .content .article-2 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.articleandnews .container .content .article-2 img {
+  padding-bottom: 20px;
+}
+.articleandnews .container .content .article-3 h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+}
+.articleandnews .container .content .article-3 img {
+  padding-bottom: 20px;
 }
 
 .newsletter {
