@@ -39,9 +39,9 @@ const Ourservices = () => {
                         <a className="btn-round" href="#"><i class="fa-solid fa-arrow-right"></i></a>
                     </div> 
                 </div>
-                <div className="button-5">
-                    <a class="btn-transparent" href="services.html">Browse Services<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
+            </div>
+            <div className="button-5">
+                <a class="btn-transparent" href="services.html">Browse Services<i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
         </div>
     </section>

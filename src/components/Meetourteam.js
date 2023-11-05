@@ -10,8 +10,10 @@ const Meetourteam = () => {
     <section className='meetourteam'>
         <div className='container'>
             <div className="heading">
+                <div className='text'>
                 <p>Meet Our Team</p>
                 <h2>Experience Team members</h2>
+                </div>
                 <div className="button">
                     <a className="btn-transparent" href="#">Browse Team<i className="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>

@@ -8,9 +8,9 @@ const Articleandnews = () => {
     <section className='articleandnews'>
         <div className='container'>
         <div className="header">
-            <div className="text">
-                <p>Article & News</p>
-                <h2>Get Every Single Article & News</h2>
+            <div className='text'>
+            <p>Article & News</p>
+            <h2>Get Every Single Article & News</h2>
             </div>
             <div className="button">
                 <a className="btn-transparent" href="#">Browse articles<i className="fa-solid fa-arrow-up-right-from-square"></i></a>

@@ -423,6 +423,7 @@ footer .small-footer .container .social-media a {
 
 .ourservices {
   position: relative;
+  max-width: 100%;
   background-color: #F0EFE9;
   padding-top: 100px;
   height: 800px;
@@ -449,22 +450,21 @@ footer .small-footer .container .social-media a {
 }
 .ourservices .container .content #box-1 {
   background-color: white;
-  height: 300px;
-  width: 300px;
+  height: 250px;
 }
 .ourservices .container .content #box-1 h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
-  padding-top: 90px;
+  padding-top: 50px;
   padding-left: 30px;
 }
 .ourservices .container .content #box-1 p {
   padding-left: 30px;
 }
 .ourservices .container .content #box-1 #button-1 {
-  padding-top: 40px;
-  padding-left: 200px;
+  margin-left: 65%;
+  padding-top: 20px;
 }
 .ourservices .container .content #box-1 #button-1 a {
   background-color: #191919;
@@ -478,22 +478,20 @@ footer .small-footer .container .social-media a {
 }
 .ourservices .container .content #box-2 {
   background-color: #F9D783;
-  height: 300px;
-  width: 300px;
 }
 .ourservices .container .content #box-2 h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
-  padding-top: 90px;
+  padding-top: 50px;
   padding-left: 30px;
 }
 .ourservices .container .content #box-2 p {
   padding-left: 30px;
 }
 .ourservices .container .content #box-2 #button-2 {
-  padding-top: 40px;
-  padding-left: 200px;
+  margin-left: 65%;
+  padding-top: 20px;
 }
 .ourservices .container .content #box-2 #button-2 a {
   background-color: white;
@@ -503,22 +501,20 @@ footer .small-footer .container .social-media a {
 }
 .ourservices .container .content #box-3 {
   background-color: white;
-  height: 300px;
-  width: 300px;
 }
 .ourservices .container .content #box-3 h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
-  padding-top: 90px;
+  padding-top: 50px;
   padding-left: 30px;
 }
 .ourservices .container .content #box-3 p {
   padding-left: 30px;
 }
 .ourservices .container .content #box-3 #button-3 {
-  padding-top: 40px;
-  padding-left: 200px;
+  margin-left: 65%;
+  padding-top: 20px;
 }
 .ourservices .container .content #box-3 #button-3 a {
   background-color: #191919;
@@ -532,22 +528,20 @@ footer .small-footer .container .social-media a {
 }
 .ourservices .container .content #box-4 {
   background-color: white;
-  height: 300px;
-  width: 300x;
 }
 .ourservices .container .content #box-4 h3 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
-  padding-top: 90px;
+  padding-top: 50px;
   padding-left: 30px;
 }
 .ourservices .container .content #box-4 p {
   padding-left: 30px;
 }
 .ourservices .container .content #box-4 #button-4 {
-  padding-top: 40px;
-  padding-left: 200px;
+  margin-left: 65%;
+  padding-top: 20px;
 }
 .ourservices .container .content #box-4 #button-4 a {
   background-color: #191919;
@@ -560,9 +554,8 @@ footer .small-footer .container .social-media a {
   background-color: #8f7c4c;
 }
 .ourservices .container .button-5 {
-  position: absolute;
-  top: 85%;
-  left: 45%;
+  text-align: center;
+  padding-top: 70px;
 }
 .ourservices .container .button-5 a {
   padding: 15px 20px 15px 20px;
@@ -581,12 +574,12 @@ footer .small-footer .container .social-media a {
   height: 500px;
   width: 650px;
   position: absolute;
+  left: 45%;
   bottom: 100px;
-  right: 230px;
 }
 .whychooseus .container .background-box {
   background-color: #F0EFE9;
-  width: 1000px;
+  width: 60%;
   height: 400px;
   position: absolute;
   z-index: -1;
@@ -685,17 +678,20 @@ footer .small-footer .container .social-media a {
   padding-bottom: 100px;
   background-color: #F9D783;
 }
-.meetourteam .container .heading p {
+.meetourteam .container .heading {
+  display: flex;
+  justify-content: space-between;
+}
+.meetourteam .container .heading .text p {
   color: #f94d1c;
 }
-.meetourteam .container .heading h2 {
+.meetourteam .container .heading .text h2 {
   font-family: "DM Sans", sans-serif;
   font-weight: 700;
   font-size: 45px;
 }
 .meetourteam .container .heading .button {
-  padding-left: 1050px;
-  margin-top: -45px;
+  padding-top: 50px;
 }
 .meetourteam .container .heading .button a {
   padding: 15px 25px 15px 25px;
@@ -710,14 +706,15 @@ footer .small-footer .container .social-media a {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-bottom: 30px;
+  gap: 20px;
 }
 .meetourteam .container .content .images img {
-  width: 300px;
-  height: 400px;
+  max-width: 100%;
 }
 .meetourteam .container .content .text {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
 }
 .meetourteam .container .content .text h3 {
   font-family: "DM Sans", sans-serif;
@@ -829,7 +826,7 @@ footer .small-footer .container .social-media a {
 }
 .articleandnews .container .header {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 .articleandnews .container .header .text h2 {
   font-family: "DM Sans", sans-serif;
@@ -841,14 +838,14 @@ footer .small-footer .container .social-media a {
   color: #f94d1c;
 }
 .articleandnews .container .header .button {
-  padding-left: 400px;
+  padding-top: 50px;
 }
 .articleandnews .container .header .button a {
   padding: 15px 20px 15px 20px;
 }
 .articleandnews .container .content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 30px;
 }
 .articleandnews .container .content .article-1 h3 {
@@ -858,6 +855,7 @@ footer .small-footer .container .social-media a {
 }
 .articleandnews .container .content .article-1 img {
   padding-bottom: 20px;
+  max-width: 100%;
 }
 .articleandnews .container .content .article-2 h3 {
   font-family: "DM Sans", sans-serif;
@@ -866,6 +864,7 @@ footer .small-footer .container .social-media a {
 }
 .articleandnews .container .content .article-2 img {
   padding-bottom: 20px;
+  max-width: 100%;
 }
 .articleandnews .container .content .article-3 h3 {
   font-family: "DM Sans", sans-serif;
@@ -874,6 +873,7 @@ footer .small-footer .container .social-media a {
 }
 .articleandnews .container .content .article-3 img {
   padding-bottom: 20px;
+  max-width: 100%;
 }
 
 .newsletter {
@@ -901,4 +901,9 @@ footer .small-footer .container .social-media a {
 }
 .newsletter .container form .btn-yellow {
   border: none;
+}
+
+.map {
+  max-width: 100%;
+  height: auto;
 }
