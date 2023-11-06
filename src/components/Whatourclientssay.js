@@ -52,9 +52,9 @@ const Whatourclientssay = () => {
                         </div>
                     </div>
                 </div>
-                <div className="center-content">
-                    <a className="btn-black" href="#">All Reviews<i className="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
+            </div>
+            <div className="center-content">
+                <a className="btn-black" href="#">All Reviews<i className="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
         </div>
     </section>

@@ -904,6 +904,67 @@ footer .small-footer .container .social-media a {
 }
 
 .map {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+}
+
+.letsconnect {
+  background-color: #F0EFE9;
+  position: relative;
+  height: 300px;
+}
+.letsconnect h1 {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 150px;
+}
+.letsconnect .backgroundlines {
+  position: absolute;
+  bottom: 0;
+}
+
+.contactboxes .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  gap: 40px;
+}
+.contactboxes .container img {
+  width: 5em;
+  height: 5em;
+}
+.contactboxes .container h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+.contactboxes .container .text {
+  padding-left: 20px;
+}
+.contactboxes .container .VisitUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 370px;
+  border: 1px solid black;
+}
+.contactboxes .container .CallUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 370px;
+  border: 1px solid black;
+}
+.contactboxes .container .EmailUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 370px;
+  border: 1px solid black;
 }
