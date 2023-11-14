@@ -917,7 +917,7 @@ footer .small-footer .container .social-media a {
   font-size: 60px;
   text-align: center;
   font-weight: bold;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 .letsconnect .backgroundlines {
   position: absolute;
@@ -950,7 +950,7 @@ footer .small-footer .container .social-media a {
   align-items: center;
   height: 200px;
   width: 370px;
-  border: 1px solid black;
+  border: 1px solid rgb(154, 154, 154);
 }
 .contactboxes .container .CallUs {
   display: flex;
@@ -958,7 +958,7 @@ footer .small-footer .container .social-media a {
   align-items: center;
   height: 200px;
   width: 370px;
-  border: 1px solid black;
+  border: 1px solid rgb(154, 154, 154);
 }
 .contactboxes .container .EmailUs {
   display: flex;
@@ -966,5 +966,51 @@ footer .small-footer .container .social-media a {
   align-items: center;
   height: 200px;
   width: 370px;
-  border: 1px solid black;
+  border: 1px solid rgb(154, 154, 154);
+}
+
+.registrationform {
+  padding-bottom: 120px;
+}
+.registrationform .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #F0EFE9;
+  height: 700px;
+}
+.registrationform .container h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+.registrationform .container .input-name input {
+  width: 40em;
+  height: 3em;
+  border-radius: 25px;
+  border: none;
+  padding: 20px;
+  outline: none;
+}
+.registrationform .container .input-email input {
+  width: 40em;
+  height: 3em;
+  border-radius: 25px;
+  border: none;
+  padding: 20px;
+  outline: none;
+}
+.registrationform .container .input-message textarea {
+  resize: none;
+  width: 40em;
+  height: 8em;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+.registrationform .container button {
+  width: 40em;
+  border: none;
 }

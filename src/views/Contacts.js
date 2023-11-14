@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Map from '../components/Map'
 import Letsconnect from '../components/Letsconnect'
 import Contactboxes from '../components/Contactboxes'
+import Messageform from '../components/Messageform'
 
 const Contacts = () => {
   return (
@@ -12,8 +13,7 @@ const Contacts = () => {
         <main>
           <Letsconnect/>
           <Contactboxes/>
-
-            
+          <Messageform/>
           <Map/>
         </main>
         <Footer/>
