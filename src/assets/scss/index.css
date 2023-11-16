@@ -980,14 +980,16 @@ footer .small-footer .container .social-media a {
 }
 .registrationform .errorvalidate {
   color: #992525;
+  padding-top: 10px;
 }
 .registrationform .successcolor {
   color: rgb(11, 107, 11);
   text-align: center;
   font-weight: 600;
   font-size: 20px;
+  padding-top: 10px;
 }
-.registrationform .container {
+.registrationform .container form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -995,16 +997,16 @@ footer .small-footer .container .social-media a {
   background-color: #F0EFE9;
   height: 700px;
 }
-.registrationform .container h1 {
+.registrationform .container form h1 {
   font-weight: 700;
   font-size: 45px;
 }
-.registrationform .container label {
+.registrationform .container form label {
   display: block;
   padding-bottom: 10px;
   padding-left: 20px;
 }
-.registrationform .container .input-name input {
+.registrationform .container form .input-name input {
   width: 40em;
   height: 3em;
   border-radius: 25px;
@@ -1012,7 +1014,7 @@ footer .small-footer .container .social-media a {
   padding: 20px;
   outline: none;
 }
-.registrationform .container .input-email input {
+.registrationform .container form .input-email input {
   width: 40em;
   height: 3em;
   border-radius: 25px;
@@ -1020,10 +1022,10 @@ footer .small-footer .container .social-media a {
   padding: 20px;
   outline: none;
 }
-.registrationform .container .input-message {
+.registrationform .container form .input-message {
   padding-bottom: 30px;
 }
-.registrationform .container .input-message textarea {
+.registrationform .container form .input-message textarea {
   resize: none;
   width: 40em;
   height: 8em;
@@ -1032,7 +1034,7 @@ footer .small-footer .container .social-media a {
   outline: none;
   padding: 20px;
 }
-.registrationform .container button {
+.registrationform .container form button {
   width: 40em;
   border: none;
 }

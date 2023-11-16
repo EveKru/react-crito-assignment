@@ -62,17 +62,17 @@ const Messageform = () => {
             }
         }
 
-        if (!setnameError && !setemailError && !setmessageError) {
+        if (!nameError && !emailError && !messageError) {
             
             const user = {name, email, message}
-            const JSON = JSON.stringify(user)
+            const json = JSON.stringify(user)
 
             const result = await fetch('https://win23-assignment.azurewebsites.net/api/contactform', {
                 method: 'post',
                 headers: {
                     'content-type':'application/json'
                 },
-                body: JSON
+                body: json
             })
 
             if (result.status == 200) {
@@ -83,27 +83,27 @@ const Messageform = () => {
     }
 
   return (
-    <form className='registrationform' onSubmit={handleSubmit} noValidate>
+    <section className='registrationform'>
         <div className='container'>
-            <h1>Leave us a message <br/> for any information.</h1>
-            <p className='successcolor'>{success}</p>
-            <div className='input-name'>
-                <label className='errorvalidate'>{`${nameError ? 'Förnamn måste anges.' : ''}`} </label>
-                <input placeholder='Name*' type='text' name='name' value={name} onChange={(e) => handleChange(e)}/>
-            </div>
-            <div className='input-email'>
-                <label className='errorvalidate'>{`${emailError ? 'Email måste anges.' : ''}`} </label>
-                <input placeholder='Email*' type='text' name='email' value={email} onChange={(e) => handleChange(e)}/>
-            </div>
-            <div className='input-message'>
-                <label className='errorvalidate'>{`${messageError ? 'Fältet får inte vara tomt.' : ''}`} </label>
-                <textarea maxLength={500} placeholder='Your Message*' type='text' name='message' value={message} onChange={(e) => handleChange(e)}/>
-            </div>
-            <div>
+            <form onSubmit={handleSubmit} noValidate>
+                <h1>Leave us a message <br/> for any information.</h1>
+                <p className='successcolor'>{success}</p>
+                <div className='input-name'>
+                    <label className='errorvalidate'>{`${nameError ? 'Förnamn måste anges.' : ''}`} </label>
+                    <input placeholder='Name*' type='text' name='name' value={name} onChange={(e) => handleChange(e)}/>
+                </div>
+                <div className='input-email'>
+                    <label className='errorvalidate'>{`${emailError ? 'Email måste anges.' : ''}`} </label>
+                    <input placeholder='Email*' type='text' name='email' value={email} onChange={(e) => handleChange(e)}/>
+                </div>
+                <div className='input-message'>
+                    <label className='errorvalidate'>{`${messageError ? 'Fältet får inte vara tomt.' : ''}`} </label>
+                    <textarea maxLength={500} placeholder='Your Message*' type='text' name='message' value={message} onChange={(e) => handleChange(e)}/>
+                </div>
                 <button type='submit' className='btn-yellow'>Send Message<i className="fa-solid fa-arrow-up-right-from-square"></i></button>
-            </div>
+            </form>
         </div>
-    </form>
+    </section>
   )
 }
 
