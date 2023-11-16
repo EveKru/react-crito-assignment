@@ -3,10 +3,16 @@
     padding-bottom: 120px;
 
     .errorcolor {
-        color: rgb(153, 37, 37);
+        color: #992525;
         text-align: center;
         font-weight: 600;
         font-size: 20px;
+    }
+
+    .errorvalidate {
+
+        color: #992525;
+
     }
 
     .successcolor {
@@ -22,7 +28,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 20px;
 
         background-color: #F0EFE9;
         height: 700px;  
@@ -30,6 +35,12 @@
         h1 {
             font-weight: 700;
             font-size: 45px;
+        }
+
+        label {
+            display: block;
+            padding-bottom: 10px;
+            padding-left: 20px;
         }
         
         .input-name {
@@ -59,6 +70,8 @@
           }
 
         .input-message {
+
+            padding-bottom: 30px;
 
             textarea {
 

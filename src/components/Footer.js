@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
         <div className='large-footer'>
-            <div class="lines">
+            <div className="lines">
                 <img src={Lines} alt=""/>
             </div>
             <div className='container'>
